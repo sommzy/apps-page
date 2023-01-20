@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
-body{
+
+body {
     padding: 0;
     margin: 0;
     background-color: #fff;
@@ -8,18 +9,20 @@ body{
     justify-content: center;
     display: flex;
 }
-.input{
+
+.input {
     width: 436px;
     height: 65px;
-    color: hsl(219, 14%, 63%); 
+    color: hsl(219, 14%, 63%);
     border: none;
-    box-shadow: 0px 1px 5px  hsl(219, 14%, 63%);
+    box-shadow: 0px 1px 5px hsl(219, 14%, 63%);
     padding: 7px;
     margin-top: 10px;
     font-size: 10px;
     text-align: justify;
 }
-.box{
+
+.box {
     height: 630px;
     width: 565px;
     background-color: hsl(0, 0%, 100%);
@@ -30,29 +33,61 @@ body{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 10px;
 }
-p{
+
+p {
     font-size: 16px;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-.headernav{
+
+.headernav {
     display: flex;
     justify-content: space-between;
 }
-.each{
-    background-color:hsl(210, 60%, 98%);
+
+.each {
+    background-color: hsl(210, 60%, 98%);
     height: 60px;
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
     line-height: 1.4;
 }
-.text{
+
+.text {
     margin-left: 50px;
 }
-img{
+
+img {
     float: left;
     width: 40px;
     height: 40px;
+}
+
+.meach {
+    margin-top: 82px;
+    background-color: #fff;
+}
+
+@media screen and (max-width:600px) {
+
+    .box,
+    .input {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .each {
+        width: 100%;
+    }
+
+    .meach {
+        margin-top: 6rem;
+    }
+
+    .none {
+        display: none;
+    }
 }

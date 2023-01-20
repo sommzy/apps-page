@@ -1,122 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Mentor | Notifications page</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="html5.webp" />
-  </head>
-  <body>
-    <div class="box">
-      <div class="headernav">
-        <div>
-          <span style="font-size: 20px; font-weight: bold">Notifications</span
-          >&nbsp;<span
-            style="
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="html5.webp" />
+</head>
+
+<body>
+  <div class="box">
+    <div class="headernav">
+      <div>
+        <span style="font-size: 20px; font-weight: bold">Notifications</span>&nbsp;<span style="
               padding: 2px 8px;
               background-color: hsl(219, 85%, 26%);
               color: #fff;
               border-radius: 4px;
-            "
-            >3</span
-          >
-        </div>
-        <div>
-          <span style="opacity: 0.6; font-size: 14px"> Mark all as read </span>
-        </div>
+            ">3</span>
       </div>
-      <br />
-      <div class="each">
-        <img src="avatar-mark-webber.webp" alt="man" />
-        <div class="text">
-          <strong style="color: hsl(224, 21%, 14%)">Mark Webber</strong
-          ><span style="color: hsl(219, 14%, 63%);">
-            reacted to your recent post
-            <span style="font-weight: bold; color: hsl(219, 12%, 42%);">
-              My first tournament today!</span
-            ><br />1m ago</span
-          >
-        </div>
+      <div>
+        <span style="opacity: 0.6; font-size: 14px"> Mark all as read </span>
       </div>
-      <div class="each">
-        <img src="avatar-angela-gray.webp" alt="man" />
-        <div class="text">
-          <strong style="color: hsl(224, 21%, 14%)">Angela Gray</strong
-          ><span style="color: hsl(219, 14%, 63%)">
-            followed you<br />5m ago</span
-          >
-        </div>
+    </div>
+    <br />
+    <div class="each">
+      <img src="avatar-mark-webber.webp" alt="man" />
+      <div class="text">
+        <strong style="color: hsl(224, 21%, 14%)">Mark Webber</strong><span style="color: hsl(219, 14%, 63%);">
+          reacted to your recent post
+          <span style="font-weight: bold; color: hsl(219, 12%, 42%);">
+            My first tournament today!</span><br />1m ago</span>
       </div>
-      <div class="each">
-        <img src="avatar-jacob-thompson.webp" alt="man" />
-        <div class="text">
-          <strong style="color: hsl(224, 21%, 14%)">Jacob Thompson</strong
-          ><span style="color: hsl(219, 14%, 63%); text-align: center">
-            has joined your group
-            <span style="font-weight: bold; color: hsl(219, 85%, 26%)">
-              Chess Club</span
-            ><br />1 day ago</span
-          >
-        </div>
+    </div>
+    <div class="each">
+      <img src="avatar-angela-gray.webp" alt="man" />
+      <div class="text">
+        <strong style="color: hsl(224, 21%, 14%)">Angela Gray</strong><span style="color: hsl(219, 14%, 63%)">
+          followed you<br />5m ago</span>
       </div>
-      <div class="each" style="background-color: #fff">
-        <img src="avatar-rizky-hasanuddin.webp" />
-        <div class="text">
-          <strong style="color: hsl(224, 21%, 14%)">Rizky Hasanuddin</strong
-          ><span style="color: hsl(219, 14%, 63%)">
-            sent you a private message
-            <br />
-            5 days ago</span
-          >
-          <div class="input">
-            Hello, thanks for setting up the Chess Club. I've been a member for
-            a <br />
-            few weeks now and I'm already having lots of fun and improving my
-            <br />
-            game.
-          </div>
-        </div>
+    </div>
+    <div class="each">
+      <img src="avatar-jacob-thompson.webp" alt="man" />
+      <div class="text">
+        <strong style="color: hsl(224, 21%, 14%)">Jacob Thompson</strong><span
+          style="color: hsl(219, 14%, 63%); text-align: center">
+          has joined your group
+          <span style="font-weight: bold; color: hsl(219, 85%, 26%)">
+            Chess Club</span><br />1 day ago</span>
       </div>
-      <div class="each" style="margin-top: 82px; background-color: #fff">
-        <div class="headernav">
-          <div>
-            <img src="avatar-kimberly-smith.webp" alt="man" />
-            <div class="text">
-              <strong style="color: hsl(224, 21%, 14%)"> Kimberly Smith</strong
-              ><span style="color: hsl(219, 14%, 63%); text-align: center">
-                commented on your picture<br />1 week ago</span
-              >
-            </div>
-          </div>
-          <div><img src="image-chess.webp" alt="picture" /></div>
-        </div>
-      </div>
-      <div class="each" style="background-color: #fff;">
-        <img src="avatar-nathan-peterson.webp" alt="man" />
-        <div class="text">
-          <strong style="color: hsl(224, 21%, 14%)">Nathan Peterson</strong
-          ><span style="color: hsl(219, 14%, 63%); text-align: center">
-            reacted to your recent post
-            <span style="font-weight: bold; color: hsl(219, 12%, 42%)">
-              5 end-game strategies to increase your win rate</span
-            ><br />2 weeks ago</span
-          >
-        </div>
-      </div>
-      <div class="each" style="background-color: #fff;">
-        <img src="avatar-anna-kim.webp" alt="man" />
-        <div class="text">
-          <strong style="color: hsl(224, 21%, 14%)"> Anna Kim </strong
-          > <span style="color: hsl(219, 14%, 63%);">
-             left the group 
-            <span style="font-weight: bold; color: hsl(219, 85%, 26%)">
-              Chess Club</span
-            ><br />2 weeks ago</span
-          >
+    </div>
+    <div class="each" style="background-color: #fff">
+      <img src="avatar-rizky-hasanuddin.webp" />
+      <div class="text">
+        <strong style="color: hsl(224, 21%, 14%)">Rizky Hasanuddin</strong><span style="color: hsl(219, 14%, 63%)">
+          sent you a private message
+          <br />
+          5 days ago</span>
+        <div class="input">
+          Hello, thanks for setting up the Chess Club. I've been a member for
+          a <br class="none">
+          few weeks now and I'm already having lots of fun and improving my
+          <br class="none">
+          game.
         </div>
       </div>
     </div>
-  </body>
+    <div class="meach each">
+      <div class="headernav">
+        <div>
+          <img src="avatar-kimberly-smith.webp" alt="man" />
+          <div class="text">
+            <strong style="color: hsl(224, 21%, 14%)"> Kimberly Smith</strong><span
+              style="color: hsl(219, 14%, 63%); text-align: center">
+              commented on your picture<br />1 week ago</span>
+          </div>
+        </div>
+        <div><img src="image-chess.webp" alt="picture" /></div>
+      </div>
+    </div>
+    <div class="each" style="background-color: #fff;">
+      <img src="avatar-nathan-peterson.webp" alt="man" />
+      <div class="text">
+        <strong style="color: hsl(224, 21%, 14%)">Nathan Peterson</strong><span
+          style="color: hsl(219, 14%, 63%); text-align: center">
+          reacted to your recent post
+          <span style="font-weight: bold; color: hsl(219, 12%, 42%)">
+            5 end-game strategies to increase your win rate</span><br />2 weeks ago</span>
+      </div>
+    </div>
+    <div class="each" style="background-color: #fff;">
+      <img src="avatar-anna-kim.webp" alt="man" />
+      <div class="text">
+        <strong style="color: hsl(224, 21%, 14%)"> Anna Kim </strong> <span style="color: hsl(219, 14%, 63%);">
+          left the group
+          <span style="font-weight: bold; color: hsl(219, 85%, 26%)">
+            Chess Club</span><br />2 weeks ago</span>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
